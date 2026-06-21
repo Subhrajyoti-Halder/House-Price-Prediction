@@ -120,19 +120,5 @@ Machine learning can assist real-estate businesses in making more accurate prici
 ### ▶️ How to Run
 Clone the repository
 ---
-- Open an issue: https://github.com/Subhrajyoti-Halder/NewsHub
----
-Install dependencies
-pip install
-pandas 
-numpy
-matplotlib 
-seaborn 
-scikit-learn
----
-Launch Jupyter Notebook
-jupyter notebook
----
-Open and run:
-analysis.ipynb
+- Open an issue: https://github.com/Subhrajyoti-Halder/House-Price-Prediction
 ---
