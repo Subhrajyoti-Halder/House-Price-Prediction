@@ -4,7 +4,6 @@
 ### 📌 Project Overview
 
 This project was developed as part of an Internship Week 1 assignment. The objective is to build a machine learning model that predicts house prices based on various property features such as area, number of bedrooms, bathrooms, stories, parking availability, and furnishing status.
-
 The project demonstrates the complete machine learning workflow including data exploration, preprocessing, model training, evaluation, visualization, and business insights.
 ---
 ### 🎯 Objectives
@@ -52,28 +51,28 @@ Price (Target Variable)
 ---
 ### 🔄 Project Workflow
 1. Data Exploration
-Loaded Housing.csv dataset.
-Displayed sample records.
-Analyzed dataset dimensions.
-Identified features and target variable.
-Checked for missing values.
+- Loaded Housing.csv dataset.
+- Displayed sample records.
+- Analyzed dataset dimensions.
+- Identified features and target variable.
+- Checked for missing values.
 2. Data Preprocessing
-Removed duplicate records.
-Handled missing values.
-Encoded categorical variables.
-Prepared dataset for model training.
+- Removed duplicate records.
+- Handled missing values.
+- Encoded categorical variables.
+- Prepared dataset for model training.
 3. Model Building
-Linear Regression
+# Linear Regression
 
-A baseline regression model used to establish relationships between features and house prices.
+- A baseline regression model used to establish relationships between features and house prices.
 
-Random Forest Regressor
+# Random Forest Regressor
 
-An ensemble learning model capable of capturing complex and non-linear relationships within the housing data.
+- An ensemble learning model capable of capturing complex and non-linear relationships within the housing data.
 
 4. Model Evaluation
 
-Performance was evaluated using:
+# Performance was evaluated using:
 
 Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
@@ -85,15 +84,15 @@ R² Score
 
 The project includes the following visualizations:
 
-House Price Distribution
+# House Price Distribution
 
 Shows the overall distribution of house prices within the dataset.
 
-Correlation Heatmap
+# Correlation Heatmap
 
 Displays relationships between housing features and price.
 
-Actual vs Predicted Prices
+# Actual vs Predicted Prices
 
 Compares actual property prices against model predictions.
 
@@ -102,19 +101,18 @@ Compares actual property prices against model predictions.
 
 The analysis revealed that the following factors have the strongest impact on house prices:
 
-Property Area
-Number of Bathrooms
-Number of Stories
-Parking Availability
-Preferred Location
-
+- Property Area
+- Number of Bathrooms
+- Number of Stories
+- Parking Availability
+- Preferred Location
 The Random Forest Regressor generally achieved better prediction accuracy compared to Linear Regression.
 ---
 ### 💡 Business Insights
-Larger properties tend to have higher market value.
-Additional bathrooms and parking spaces significantly increase property prices.
-Location remains one of the most important determinants of housing value.
-Machine learning can assist real-estate businesses in making more accurate pricing decisions.
+- Larger properties tend to have higher market value.
+- Additional bathrooms and parking spaces significantly increase property prices.
+- Location remains one of the most important determinants of housing value.
+- Machine learning can assist real-estate businesses in making more accurate pricing decisions.
 
 ---
 ### ▶️ How to Run
