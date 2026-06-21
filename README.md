@@ -3,9 +3,10 @@
 ---
 ### 📌 Project Overview
 
+-
 This project was developed as part of an Internship Week 1 assignment. The objective is to build a machine learning model that predicts house prices based on various property features such as area, number of bedrooms, bathrooms, stories, parking availability, and furnishing status.
 The project demonstrates the complete machine learning workflow including data exploration, preprocessing, model training, evaluation, visualization, and business insights.
----
+-
 ### 🎯 Objectives
 Predict house prices using machine learning techniques.
 Identify the most influential factors affecting property value.
@@ -21,19 +22,19 @@ Housing Prices Dataset (Kaggle)
 
 The dataset contains housing-related attributes including:
 
-Area
-Bedrooms
-Bathrooms
-Stories
-Main Road Access
-Guest Room
-Basement
-Hot Water Heating
-Air Conditioning
-Parking
-Preferred Area
-Furnishing Status
-Price (Target Variable)
+- Area
+- Bedrooms
+- Bathrooms
+- Stories
+- Main Road Access
+- Guest Room
+- Basement
+- Hot Water Heating
+- Air Conditioning
+- Parking
+- Preferred Area
+- Furnishing Status
+- Price (Target Variable)
 
 ---
 
@@ -62,17 +63,17 @@ Price (Target Variable)
 - Encoded categorical variables.
 - Prepared dataset for model training.
 3. Model Building
-# Linear Regression
+#### Linear Regression
 
 - A baseline regression model used to establish relationships between features and house prices.
 
-# Random Forest Regressor
+#### Random Forest Regressor
 
 - An ensemble learning model capable of capturing complex and non-linear relationships within the housing data.
 
 4. Model Evaluation
 
-# Performance was evaluated using:
+#### Performance was evaluated using:
 
 Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
@@ -84,15 +85,15 @@ R² Score
 
 The project includes the following visualizations:
 
-# House Price Distribution
+#### House Price Distribution
 
 Shows the overall distribution of house prices within the dataset.
 
-# Correlation Heatmap
+#### Correlation Heatmap
 
 Displays relationships between housing features and price.
 
-# Actual vs Predicted Prices
+#### Actual vs Predicted Prices
 
 Compares actual property prices against model predictions.
 
