@@ -1,12 +1,13 @@
 # House-Price-Prediction
 
 ---
-### 📌 Project Overview
 
--
+
+### 📌 Project Overview
+Predict house prices using machine learning techniques.
 This project was developed as part of an Internship Week 1 assignment. The objective is to build a machine learning model that predicts house prices based on various property features such as area, number of bedrooms, bathrooms, stories, parking availability, and furnishing status.
 The project demonstrates the complete machine learning workflow including data exploration, preprocessing, model training, evaluation, visualization, and business insights.
--
+
 ### 🎯 Objectives
 Predict house prices using machine learning techniques.
 Identify the most influential factors affecting property value.
@@ -73,11 +74,11 @@ The dataset contains housing-related attributes including:
 
 4. Model Evaluation
 
-#### Performance was evaluated using:
+ Performance was evaluated using:
 
-Mean Absolute Error (MAE)
-Root Mean Squared Error (RMSE)
-R² Score
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
 
 ---
 
@@ -119,5 +120,5 @@ The Random Forest Regressor generally achieved better prediction accuracy compar
 ### ▶️ How to Run
 Clone the repository
 ---
-- Open an issue: https://github.com/Subhrajyoti-Halder/House-Price-Prediction
+  - https://github.com/Subhrajyoti-Halder/House-Price-Prediction
 ---
