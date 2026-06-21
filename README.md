@@ -1,18 +1,21 @@
 # House-Price-Prediction
 
-
-📌 Project Overview
+---
+### 📌 Project Overview
 
 This project was developed as part of an Internship Week 1 assignment. The objective is to build a machine learning model that predicts house prices based on various property features such as area, number of bedrooms, bathrooms, stories, parking availability, and furnishing status.
 
 The project demonstrates the complete machine learning workflow including data exploration, preprocessing, model training, evaluation, visualization, and business insights.
-
-🎯 Objectives
+---
+---
+### 🎯 Objectives
 Predict house prices using machine learning techniques.
 Identify the most influential factors affecting property value.
 Compare the performance of Linear Regression and Random Forest Regressor.
 Visualize key insights from the housing dataset.
-📂 Dataset
+
+---
+### 📂 Dataset
 
 Dataset Source:
 
@@ -33,16 +36,23 @@ Parking
 Preferred Area
 Furnishing Status
 Price (Target Variable)
-🛠️ Technologies Used
-Tool	Purpose
-Python	Programming Language
-Pandas	Data Loading & Cleaning
-NumPy	Numerical Computation
-Scikit-Learn	Machine Learning Models
-Matplotlib	Data Visualization
-Seaborn	Statistical Visualization
-Jupyter Notebook	Development Environment
-🔄 Project Workflow
+
+---
+
+---
+### 🛠️ Technologies Used
+| Tool	 | Purpose |
+|------|------|
+| `Python` | Programming Language |
+| `Pandas` | Data Loading & Cleaning |
+| `NumPy` | Numerical Computation |
+| `Scikit-Learn` | Machine Learning Models |
+| `Matplotlib` | Data Visualization |
+| `Seaborn` | Statistical Visualization |
+| `Jupyter Notebook` | Development Environment |
+
+---
+### 🔄 Project Workflow
 1. Data Exploration
 Loaded Housing.csv dataset.
 Displayed sample records.
@@ -70,7 +80,11 @@ Performance was evaluated using:
 Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
 R² Score
-📊 Visualizations
+
+---
+---
+
+### 📊 Visualizations
 
 The project includes the following visualizations:
 
@@ -86,7 +100,10 @@ Actual vs Predicted Prices
 
 Compares actual property prices against model predictions.
 
-📈 Results
+---
+
+---
+### 📈 Results
 
 The analysis revealed that the following factors have the strongest impact on house prices:
 
@@ -97,20 +114,26 @@ Parking Availability
 Preferred Location
 
 The Random Forest Regressor generally achieved better prediction accuracy compared to Linear Regression.
+---
 
-💡 Business Insights
+---
+### 💡 Business Insights
 Larger properties tend to have higher market value.
 Additional bathrooms and parking spaces significantly increase property prices.
 Location remains one of the most important determinants of housing value.
 Machine learning can assist real-estate businesses in making more accurate pricing decisions.
 
-
-▶️ How to Run
+---
+---
+### ▶️ How to Run
 Clone the repository
-git clone https://github.com/your-username/HousePricePrediction.git
+---
+- Open an issue: https://github.com/Subhrajyoti-Halder/NewsHub
+---
 Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn
 Launch Jupyter Notebook
 jupyter notebook
 Open and run:
 analysis.ipynb
+---
