@@ -7,7 +7,6 @@ This project was developed as part of an Internship Week 1 assignment. The objec
 
 The project demonstrates the complete machine learning workflow including data exploration, preprocessing, model training, evaluation, visualization, and business insights.
 ---
----
 ### 🎯 Objectives
 Predict house prices using machine learning techniques.
 Identify the most influential factors affecting property value.
@@ -39,7 +38,6 @@ Price (Target Variable)
 
 ---
 
----
 ### 🛠️ Technologies Used
 | Tool	 | Purpose |
 |------|------|
@@ -82,7 +80,6 @@ Root Mean Squared Error (RMSE)
 R² Score
 
 ---
----
 
 ### 📊 Visualizations
 
@@ -101,8 +98,6 @@ Actual vs Predicted Prices
 Compares actual property prices against model predictions.
 
 ---
-
----
 ### 📈 Results
 
 The analysis revealed that the following factors have the strongest impact on house prices:
@@ -115,15 +110,12 @@ Preferred Location
 
 The Random Forest Regressor generally achieved better prediction accuracy compared to Linear Regression.
 ---
-
----
 ### 💡 Business Insights
 Larger properties tend to have higher market value.
 Additional bathrooms and parking spaces significantly increase property prices.
 Location remains one of the most important determinants of housing value.
 Machine learning can assist real-estate businesses in making more accurate pricing decisions.
 
----
 ---
 ### ▶️ How to Run
 Clone the repository
